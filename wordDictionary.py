@@ -1,3 +1,5 @@
+import os
+
 def make_Dictionary(train_dir):
     emails = [os.path.join(train_dir,f) for f in os.listdir(train_dir)]    
     all_words = []       
